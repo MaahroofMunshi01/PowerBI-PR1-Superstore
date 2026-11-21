@@ -1,34 +1,35 @@
-# Power BI PR1 — Superstore Sales Analysis Dashboard
+# Power BI PR1 — Superstore Sales & Performance Dashboard
 
 ## Project Overview
 
-This project involves exploring and analyzing the Superstore Sales dataset using Microsoft Power BI. An interactive dashboard has been developed to understand business performance and identify important sales trends.
+This project demonstrates the use of Microsoft Power BI for analyzing retail sales data and presenting important business metrics through an interactive dashboard.
 
-The report focuses on evaluating sales, profit, product category performance, regional contributions, and customer segments through meaningful visualizations and interactive filters.
+Using the Sample Superstore dataset, the project explores sales trends, profit distribution, product category performance, and regional business activities.
 
-The main goal is to convert raw sales records into useful business insights using data preparation, transformation, and visualization techniques.
+The dashboard is designed to make business data easier to understand through KPI indicators, charts, slicers, and interactive filtering.
 
-## Dataset
+## Dataset Information
 
-- **Name:** Sample Superstore Sales Dataset
-- **Source:** Kaggle
-- **File Format:** CSV
-- **Number of Records:** Approximately 9,994
+- **Dataset:** Sample Superstore Sales Dataset
+- **Data Source:** Kaggle
+- **Format:** CSV
+- **Total Records:** Approximately 9,994
+- **Domain:** Retail and Business Sales Analytics
 
-## Tools & Technologies
+## Technologies & Tools
 
-- Microsoft Power BI Desktop
-- Power Query Editor
-- DAX (Data Analysis Expressions)
-- CSV (Comma-Separated Values)
+- Power BI Desktop — Dashboard development and visualization
+- Power Query Editor — Data cleaning and transformation
+- DAX — Calculated measures and business metrics
+- CSV — Source data format
 
-## Project Structure
+## Repository Structure
 
 ```text
 PowerBI-PR1-Superstore/
 │
 ├── SampleSuperstore.csv
-├── PR1_Harsh.pbix
+├── PR1_Mahroof.pbix
 ├── README.md
 ├── LICENSE
 │
@@ -58,107 +59,108 @@ PowerBI-PR1-Superstore/
 └── resources/
 ```
 
-## Implementation Details
+## Development Workflow
 
-### 1. Data Import
-- Loaded the Sample Superstore dataset into Power BI Desktop.
-- Established a connection with the CSV data source.
+### 1. Dataset Import
+- Imported the Sample Superstore CSV file into Power BI Desktop.
+- Connected the dataset to the Power BI reporting environment.
 
-### 2. Data Preparation
-- Used Power Query Editor to clean and transform the imported data.
-- Applied more than eight data preparation and transformation steps.
-- Verified column data types and corrected inconsistencies.
-- Organized the data for effective reporting and analysis.
+### 2. Data Cleaning & Preparation
+- Performed data cleaning using Power Query Editor.
+- Applied 8+ transformation steps to prepare the dataset.
+- Reviewed column formats and data types.
+- Prepared the required fields for visualization and analysis.
 
-### 3. KPI Cards
+### 3. Key Performance Indicators (KPIs)
 
-Developed four key performance indicators to summarize business performance:
+Created four KPI cards to monitor important business metrics:
 
-- **Total Sales:** Overall revenue generated.
-- **Total Profit:** Profit earned from sales.
-- **Total Quantity:** Total units sold.
-- **Average Discount:** Average discount offered on products.
+| KPI | Purpose |
+|---|---|
+| Total Sales | Measures overall sales revenue |
+| Total Profit | Shows the profit generated |
+| Total Quantity | Displays the total quantity sold |
+| Average Discount | Represents the average discount offered |
 
-### 4. Visual Analytics
+### 4. Charts & Visualizations
 
-Implemented the following charts to examine business performance:
+Developed the following charts:
 
-- **Sales by Category:** Bar Chart to compare category-wise sales.
-- **Profit by Region:** Bar Chart to evaluate regional profitability.
+- **Sales by Category:** Compares sales performance across product categories.
+- **Profit by Region:** Highlights profit contribution from different regions.
 
-### 5. Slicers & Interactivity
+### 5. Interactive Slicers
 
-Added interactive slicers to allow users to explore the report dynamically:
+Implemented two slicers for dynamic report exploration:
 
-- Region
-- Category
+- Region Slicer
+- Category Slicer
 
-### 6. Filter Configuration
+### 6. Filter Management
+- Applied page-level filtering.
+- Configured visual-level filtering.
+- Tested filter behavior across dashboard elements.
 
-- Applied page-level filters for report-specific analysis.
-- Used visual-level filters to control individual chart data.
-- Configured filtering behavior across report elements.
+### 7. Dashboard Theme & Formatting
+- Integrated a custom Power BI theme.
+- Formatted charts, KPI cards, and report elements.
+- Maintained a clean and consistent visual layout.
 
-### 7. Report Customization
+### 8. Visual Interactions
+- Configured interactions between dashboard visuals.
+- Tested at least three visual interaction pairs.
+- Verified that selections update related visualizations correctly.
 
-- Applied a custom Power BI theme.
-- Adjusted visual formatting, colors, and layouts.
-- Maintained a consistent dashboard design.
+## Dashboard Preview
 
-### 8. Visual Interaction Settings
-
-- Configured interactions between different report visuals.
-- Tested multiple visual interaction combinations.
-- Ensured that slicers and charts respond appropriately to user selections.
-
-## Dashboard Screenshots
-
-### Page 1 — Sales Overview
+### Dashboard — Page 1
 
 ![Sales Dashboard](screenshots/page1_dashboard.png)
 
-### Page 2 — Detailed Data View
+### Data View — Page 2
 
 ![Data Table](screenshots/page2_datatable.png)
 
-## Business Insights
+## Analysis & Insights
 
-The dashboard enables users to investigate different aspects of Superstore operations, including:
+The report provides an opportunity to examine:
 
-- Overall revenue and profit performance.
-- Sales contribution across different product categories.
-- Profitability comparison across geographical regions.
-- Relationship between product quantity and discount.
-- Business performance across different regions and categories.
+- Total business sales and profit.
+- Performance differences between product categories.
+- Regional contribution to overall profitability.
+- Product quantity and discount trends.
+- Sales performance under different filter selections.
 
-## How to Run the Project
+## Running the Project
 
-1. Download or clone this repository to your local system.
-2. Find the `PR1_Harsh.pbix` report file.
-3. Open the file using Microsoft Power BI Desktop.
-4. Navigate through the dashboard pages.
-5. Use the Region and Category slicers to filter the data.
-6. Explore the charts and visual interactions to understand business performance.
+To explore the dashboard:
 
-## Project Deliverables
+1. Download or clone the repository.
+2. Open the `PR1_Mahroof.pbix` file.
+3. Launch it using Microsoft Power BI Desktop.
+4. Navigate between the available report pages.
+5. Apply Region and Category slicers.
+6. Explore charts, KPIs, and interactive visual elements.
 
-| Deliverable | Location |
+## Deliverables
+
+| Component | Repository Location |
 |---|---|
-| Power BI Dashboard | `PR1_Harsh.pbix` |
-| Source Dataset | `SampleSuperstore.csv` |
-| Project Documentation | `documentation/` |
-| DAX Measures | `dax/` |
-| Power Query Files | `queries/` |
-| Dashboard Images | `screenshots/` |
-| Custom Theme | `theme/` |
-| Supporting Resources | `resources/` |
+| Power BI Report | `PR1_Mahroof.pbix` |
+| Dataset | `SampleSuperstore.csv` |
+| Documentation | `documentation/` |
+| DAX Calculations | `dax/` |
+| Power Query Resources | `queries/` |
+| Dashboard Screenshots | `screenshots/` |
+| Theme Configuration | `theme/` |
+| Additional Resources | `resources/` |
 
 ## Author
 
-**Harsh**
+**Mahroof**
 
-Data Analytics | Power BI | Business Intelligence
+Power BI | Data Analytics | Business Intelligence
 
 ## Acknowledgement
 
-The Sample Superstore dataset used in this project was obtained from Kaggle. This project is developed for learning and practicing data analytics and business intelligence concepts.
+Thanks to Kaggle for providing the Sample Superstore dataset used in this project. This work is intended for educational purposes and practical experience in business intelligence and data visualization.
